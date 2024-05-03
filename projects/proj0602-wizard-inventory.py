@@ -44,8 +44,8 @@ def display_menu():
 
 def show_items():
     print("-- Items --")
-    for idx, item in enumerate(items):
-        print(f'{idx+1}. {item}')
+    for nbr, item in enumerate(items, start=1):
+        print(f'{nbr}. {item}')
 
 def grab_item():
     print("-- Grab Item --")
